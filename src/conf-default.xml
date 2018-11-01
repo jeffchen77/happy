@@ -25,7 +25,7 @@
 	</property>
 	<property>
 		<name>redis.pass</name>
-		<value>qiniuno1</value>
+		<value>###########</value>
 		<description>redis访问密码</description>
 	</property>
 	<!-- HTTP基本参数 -->
@@ -67,7 +67,7 @@
 	</property>
 	<property>
 		<name>jdbc.password</name>
-		<value>qiniuno.1</value>
+		<value>#############</value>
 		<description>mysql密码</description>
 	</property>
 	
@@ -99,7 +99,7 @@
 	</property>
 	<property>
 		<name>mail.password</name>
-		<value>qiniuno.1</value>
+		<value>#############</value>
 		<description>邮件密码</description>
 	</property>
 	<!-- 短信信息 -->
