@@ -1,0 +1,388 @@
+body,
+div,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+form,
+fieldset,
+legend,
+input {
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	width: 100%;
+	font-family: 'Heiti SC', 'Microsoft YaHei';
+	font-size: 100px;
+	outline: 0;
+	-webkit-text-size-adjust: none;
+}
+
+body {
+	width: 100%;
+	margin: 0;
+	-webkit-user-select: none;
+	position: relative;
+	background-color: #efeff4;
+}
+
+@font-face {
+	/* font-properties */
+	font-family: pictos;
+	src: url(../font/myfont.TTC), url(../font/myfont.TTC), url(../font/myfont.TTC);
+	/* IE9 */
+}
+
+.font-face {
+	font-family: pictos;
+}
+
+@font-face {
+	/* font-properties */
+	font-family: my-font;
+	src: url(../font/myfont.TTC);
+}
+
+.font-face2 {
+	font-family: my-font;
+	color: green;
+}
+
+a:hover,
+a:link,
+a:visited,
+a {
+	color: inherit;
+	text-decoration: none;
+}
+
+ul,
+li {
+	list-style: none
+}
+
+#_centent {
+	background-color:#efeff4;
+	    height: auto;
+}
+
+header {
+	position: relative;
+	width: 7.5rem;
+	height: 0.84rem;
+	border-bottom: 1px solid #d4d4d8;
+	background-color: #fff;
+}
+
+.rt-bk {
+	position: absolute;
+	top: 0.27rem;
+	left: 0.15rem;
+	float: left;
+}
+
+.rt-bk p {
+	float: left;
+	font-size: 0.24rem;
+}
+
+.bk {
+	display: block;
+	margin: 0.045rem 0.25rem 0 0;
+	float: left;
+	width: 0.15rem;
+	height: 0.24rem;
+	background: url(../images/rt-bk.png) no-repeat;
+	background-size: 0.15rem 0.24rem;
+}
+
+.top-name {
+	text-align: center;
+	font-size: 0.34rem;
+	line-height: 0.84rem;
+}
+
+.head {
+	position: relative;
+	width: 7.5rem;
+	height: 2.0rem;
+	background-color: #5bc0de;
+	background-size: 7.5rem 2.2rem;
+}
+
+.head-img {
+	position: relative;
+	margin-top: 0.45rem;
+    margin-left: 0.3rem;
+}
+
+.head-img img {
+	width: 1.2rem;
+	height: 1.2rem;
+}
+.img-level{
+	width: 0.45rem;
+	height: 0.45rem;
+	margin-left: 0.2rem;
+}
+.head-dsb {
+	position: absolute;
+	top: 0.85rem;
+	left: 2.78rem;
+}
+.dsb-name{
+	margin-top: 0.6rem;
+	font-size: 0.28rem;
+	color: #fff;
+}
+.dsb-level{
+	font-size: 0.28rem;
+	color: #fff;
+}
+
+.dsb-rate {
+	font-size: 0.28rem;
+	color: #fff;
+}
+
+.dsb_accRate{
+margin-left: 0.4rem;	
+}
+.nav {
+	width: 7.5rem;
+	height: 1.3rem/*0.72rem;*/
+	margin-top: 0.26rem;
+	background-color: #fff;
+}
+
+.nav ul li {
+	position: relative;
+	float: left;
+	width: 2.5rem;
+	height: 0.9rem;
+	font-size: 0.3rem;
+	margin-top: 0.15rem;
+	line-height: 0.55rem;
+	text-align: center;
+}
+
+.nav ul li p {
+	position: absolute;
+	left: 1.9rem;
+	width: 0.7rem;
+}
+
+.pt-line {
+	border-left: 1px solid #dddddd;
+}
+
+.idt {
+	display: block;
+	position: absolute;
+	top: 0.11rem;
+	left: 0.68rem;
+	float: left;
+	width: 1.2rem;
+	height: 1.0rem;
+	background: url(../../images/event.png) no-repeat;
+	background-size: 1.2rem 1.0rem;
+}
+
+.clt {
+	display: block;
+	position: absolute;
+	top: 0.11rem;
+	left: 0.68rem;
+	float: left;
+	width: 1.2rem;
+	height: 1.0rem;
+	background: url(../../images/favorite.png) no-repeat;
+	background-size: 1.2rem 1.0rem;
+}
+
+.rcm {
+	display: block;
+	position: absolute;
+	top: 0.11rem;
+	left: 0.68rem;
+	float: left;
+	width: 0.37rem;
+	height: 0.35rem;
+	background: url(../img/rcm.png) no-repeat;
+	background-size: 0.37rem 0.35rem;
+}
+
+.ps-lt {
+	width: 7.5rem;
+	height: 100%;
+	background-color: #fff;
+}
+
+.lt-dsb {
+	position: relative;
+	height: 1.1rem;
+	line-height: 1.2rem;
+	border-bottom: 1px solid #e5e5e5;
+	vertical-align: inherit;
+}
+
+.lt-dsb p {
+	margin-left: 0.2rem;
+	font-size: 85%;
+	color: #838383;
+}
+
+.modifybutton{
+	display: block;
+	position:relative;
+	color: #c32e1a;
+	font-size: 85%;
+}
+.arr-right {
+	display: block;
+	position: absolute;
+	top: 0.4rem;
+	right: 0.25rem;
+	width: 0.14rem;
+	height: 0.24rem;
+	background: url(../../images/arr-right.png) no-repeat;
+	background-size: 0.14rem 0.24rem;
+}
+
+.check-on {
+	display: block;
+	position: absolute;
+	top: 0.11rem;
+	right: 0.25rem;
+	width: 0.85rem;
+	height: 0.58rem;
+	background: url(../img/on.png) no-repeat;
+	background-size: 0.85rem 0.58rem;
+}
+
+.check-off {
+	display: block;
+	position: absolute;
+	top: 0.11rem;
+	right: 0.25rem;
+	width: 0.85rem;
+	height: 0.58rem;
+	background: url(../img/off.png) no-repeat;
+	background-size: 0.85rem 0.58rem;
+}
+
+.cl-bb {
+	border: none;
+}
+
+.mt-1 {
+	margin-top: 0.5rem;
+}
+
+.mt-0 {
+	margin-top: 0.25rem;
+}
+
+.jg {
+	margin-bottom: 1rem;
+}
+
+footer {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin-top: 0.2rem;
+	width: 100%;
+	height: 9%;
+	background-color:#fff;
+	padding-top: 0.2rem;
+	font-size: 0.24rem;
+}
+footerForThemeAct {
+	position: fixed;
+	bottom: 0px;
+	left: 0px;
+	margin-top: 0.2rem;
+	width: 100%;
+	height: 9%;
+	background-color:#fff;
+	padding-top: 0.2rem;
+	font-size: 0.24rem;
+}
+
+.mune {
+	float: left;
+	margin-left: 0.54rem;
+	width: 1.2rem;
+	height: 0.7rem;
+	text-align: center;
+	color: #838383;
+}
+
+.mune p {
+	font-size: 0.22rem;
+	color: #838383;
+}
+
+
+ 
+.edit-button {
+	display: block;
+	position: absolute;
+	top: 0.4rem;
+	right: 0.25rem;
+	width: 0.32rem;
+	height: 0.35rem;
+	background: url(../../images/editIcon.png) no-repeat;
+	background-size: 0.32rem 0.35rem;
+}
+.DetaPageTopBtn {
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: table;
+    background: #5bc0de;
+}
+.DetaPageTopBtn a {
+    width: 50%;
+    height: 44px;
+    display: table-cell;
+    font: normal 14px/44px 'Microsoft Yahei';
+    text-align: center;
+    color: white;
+    position: relative;
+}
+.CarePageTopBtn {
+    width: 100%;
+    max-width: 640px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    display: table;
+    background: #5bc0de;
+}
+.CarePageTopBtn a {
+    height: 44px;
+    display: table-cell;
+    font: normal 14px/44px 'Microsoft Yahei';
+    text-align: center;
+    color: white;
+    position: relative;
+}

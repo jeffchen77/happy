@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+<!-- 默认配置 -->
+
+<configuration>
+
+	<!-- 各种配置文件路径 -->	
+	<property>
+		<name>happy.root</name>
+		<value>/opt/happy</value>
+		<description>happy工程各种配置文件的根路径</description>
+	</property>	
+
+<!-- redis设置 -->						
+	<property>
+		<name>redis.host</name>
+		<value>127.0.0.1</value>
+		<description>redis缓存主机</description>
+	</property>		
+
+	<property>
+		<name>redis.port</name>
+		<value>7480</value>
+		<description>redis缓存端口</description>
+	</property>
+	
+	<property>
+		<name>redis.pass</name>
+		<value>qiniuno1</value>
+		<description>redis访问密码</description>
+	</property>
+	<!-- HTTP基本参数 -->
+	<property>
+		<name>http.user.agent</name>
+		<value>Mozilla/5.0 (Windows; U; Windows NT 5.1; en-US; rv:1.8.0.1) Gecko/20060111 Firefox/1.5.0.1</value>
+		<!-- <value>Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; SV1; .NET CLR 1.1.4322; .NET CLR 2.0.50727)</value> -->
+		<description>为爬虫设置的user 代理</description>
+	</property>
+
+	<property>
+		<name>http.default.encoding</name>
+		<value>UTF-8</value>
+		<description>默认网页编码</description>
+	</property>
+	
+	<property>
+		<name>connection.timeout</name>
+		<value>5000</value>
+		<description>HTTP连接超时时间，单位毫秒。这个不怎么管用</description>
+	</property>
+
+	<property>
+		<name>http.socket.timeout</name>
+		<value>5000</value>
+		<description>HTTP连接超时时间，单位毫秒。这个参数才管用，超时就终止连接</description>
+	</property>
+
+    <!-- mysqljdb -->
+	<property>	
+		<name>jdbcUrl</name>
+		<value>jdbc:mysql://127.0.0.1:3306/happydev</value>
+		<description>mysql账号</description>
+	</property>
+	<property>
+		<name>jdbc.username</name>
+		<value>happy</value>
+		<description>mysql账号</description>
+	</property>
+	<property>
+		<name>jdbc.password</name>
+		<value>qiniuno.1</value>
+		<description>mysql密码</description>
+	</property>
+	
+	<!-- email adrress -->
+	<property>
+		<name>mail.subject</name>
+		<value>结果通知---朕以为</value>
+		<description>邮件标题</description>
+	</property>
+	<property>
+		<name>mail.host</name>
+		<value>smtp.sina.com</value>
+		<description>sina的邮件地址</description>
+	</property>
+	<property>
+		<name>mail.auth</name>
+		<value>true</value>
+		<description>邮件验证</description>
+	</property>
+	<property>
+		<name>mail.port</name>
+		<value>25</value>
+		<description>邮件端口</description>
+	</property>
+	<property>
+		<name>mail.user</name>
+		<value>qiniugongzuoshi@sina.com</value>
+		<description>邮件用户</description>
+	</property>
+	<property>
+		<name>mail.password</name>
+		<value>qiniuno.1</value>
+		<description>邮件密码</description>
+	</property>
+	<!-- 短信信息 -->
+	<property>
+		<name>msg.url</name>
+		<value>http://gw.api.taobao.com/router/rest</value>
+		<description>信息url</description>
+	</property>
+	<property>
+		<name>msg.appkey</name>
+		<value>23344018</value>
+		<description>信息appkey</description>
+	</property>
+	<property>
+		<name>msg.appsecret</name>
+		<value>dd377bc0938f44ee09a1386b7f715886</value>
+		<description>信息appsecret</description>
+	</property>
+	<property>
+		<name>msg.signname</name>
+		<value>活动验证</value>
+		<description>短信签名</description>
+	</property>
+	<property>
+		<name>msg.tplname</name>
+		<value>SMS_7806027</value>
+		<description>短信模板</description>
+	</property>
+	<!-- 文件地址 -->
+	<property>
+		<name>mail.drectory</name>
+		<value>/opt/happy/batch/tpl/</value>
+		<description>邮件模板目录</description>
+	</property>
+	<!-- 用户等级 -->
+	<property>
+		<name>grade.level1</name>
+		<value>50</value>
+		<description>grade.level1</description>
+	</property>
+	<property>
+		<name>grade.level2</name>
+		<value>100</value>
+		<description>grade.level2</description>
+	</property>
+	<property>
+		<name>grade.level3</name>
+		<value>200</value>
+		<description>grade.level3</description>
+	</property>
+	<property>
+		<name>grade.level4</name>
+		<value>350</value>
+		<description>grade.level4</description>
+	</property>
+	<property>
+		<name>grade.actpercent</name>
+		<value>3</value>
+		<description>grade.actpercent</description>
+	</property>
+	<property>
+		<name>grade.limitpercent</name>
+		<value>-2</value>
+		<description>grade.compercent</description>
+	</property>
+	<property>
+		<name>grade.compaintpercent</name>
+		<value>-5</value>
+		<description>grade.compercent</description>
+	</property>
+	<property>
+		<name>grade.parpercent</name>
+		<value>1</value>
+		<description>grade.parpercent</description>
+	</property>
+	<property>
+		<name>user.limittime</name>
+		<value>24</value>
+		<description>user.limittime</description>
+	</property>
+	<property>
+		<name>mail.sysmail</name>
+		<value>zhen.liu@hpe.com</value>
+		<description>mail.sysmail</description>
+	</property>
+	<property>
+		<name>mail.syssubject</name>
+		<value>新的投诉邮件抵达</value>
+		<description>mail.syssubject</description>
+	</property>
+	<property>
+		<name>server.debug</name>
+		<value>true</value>
+		<description>手机server工程服务器端的调试模式，true 测试，false正式</description>
+	</property>
+	<property>
+		<name>weixin.debug</name>
+		<value>true</value>
+		<description>数据接口工程调试模式  true 测试 false 正式</description>
+	</property>
+	<property>
+		<name>server.host</name>
+		<value>www.76idea.com</value>
+		<description>本地应用请求的server的host</description>
+	</property>
+	<property>
+		<name>weixin.host</name>
+		<value>www.76idea.com</value>
+		<description>本地应用请求的host</description>
+	</property>
+</configuration>

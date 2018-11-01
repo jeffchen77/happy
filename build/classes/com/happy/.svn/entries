@@ -1,0 +1,58 @@
+10
+
+dir
+1626
+svn://10.43.142.199/OTO/weixin/happydev/src/com/happy
+svn://10.43.142.199/OTO
+
+
+
+2017-01-16T05:09:04.281347Z
+1625
+fei.chen
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+92e09582-4165-11e5-bf16-5955dd5fea17
+
+model
+dir
+
+service
+dir
+
+utils
+dir
+
+dao
+dir
+
+weixin
+dir
+
+conf
+dir
+
+filter
+dir
+
+datasource
+dir
+
+template
+dir
+
+action
+dir
+
